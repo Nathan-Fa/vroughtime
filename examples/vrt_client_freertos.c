@@ -16,7 +16,6 @@
 #include "lwip/sys.h"
 #include <lwip/netdb.h>
 
-#include "vrt_client.h"
 #include "vrt.h"
 
 // This client is based off
