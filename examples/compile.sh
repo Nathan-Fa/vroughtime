@@ -10,4 +10,4 @@ $CC -Wall -Werror -g -fsanitize=address,undefined -c vrt.c -o vrt.o
 
 $CC -I ../ -Wall -Werror -g -fsanitize=address,undefined -o client vrt_client_unix.c vrt.o tweetnacl.o && ./client
 
-go run test_integration.go
+go run examples/test_integration.go
